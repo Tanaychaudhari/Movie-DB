@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie DB</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Movie Database</h1>
+        <div id="search-container">
+            <input type="text" id="search-input" placeholder="Search for movies...">
+            <button id="search-button">Search</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="top-rated">
+            <h2>Top-Rated Movies</h2>
+            <div id="top-rated-movies" class="movie-grid"></div>
+        </section>
+
+        <section id="upcoming">
+            <h2>Upcoming Movies</h2>
+            <div id="upcoming-movies" class="movie-grid"></div>
+        </section>
+
+        <section id="search-results">
+            <h2>Search Results</h2>
+            <div id="movies-search" class="movie-grid"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
